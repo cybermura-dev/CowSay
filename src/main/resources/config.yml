@@ -1,0 +1,13 @@
+database:
+  host: localhost
+  port: 3306
+  database: cowsay
+  username: root
+  password: password
+
+cow:
+  radius: 5.0
+  speed: 1.5
+  duration: 10
+  moo_interval: 0.5
+  particle: FLAME

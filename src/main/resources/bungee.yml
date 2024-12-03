@@ -1,0 +1,4 @@
+name: CowSay
+version: 1.0.0
+main: ru.takeshiko.minecraft.cowsay.bungee.CowSayBungee
+author: Takeshiko
