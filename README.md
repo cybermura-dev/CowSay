@@ -137,6 +137,39 @@ Currently, there are no explicit admin commands provided, but admins can manage 
 - **Managers:** Handle database interactions and configuration loading.
 - **Main Class:** CowSayBungee initializes the plugin, sets up the database, and registers commands and channels.
 
+```bash
+CowSay/
+├── build.gradle.kts            # Gradle build script
+├── settings.gradle.kts         # Gradle settings script
+├── src/
+│   ├── main/
+│   │   ├── kotlin/
+│   │   │   ├── ru/
+│   │   │   │   └── takeshiko/
+│   │   │   │       └── minecraft/
+│   │   │   │           └── cowsay/
+│   │   │   │               ├── bukkit/
+│   │   │   │               │   ├── CowSayBukkit.kt          # Main Bukkit plugin class
+│   │   │   │               │   ├── listeners/
+│   │   │   │               │   │   └── CowSayListener.kt    # Event listener for Bukkit
+│   │   │   │               │   ├── managers/
+│   │   │   │               │   │   ├── CowManager.kt        # Manages cow spawning and movement
+│   │   │   │               │   │   └── MessageManager.kt    # Manages plugin messages
+│   │   │   │               │   └── tasks/
+│   │   │   │               │       └── CowMovementTask.kt   # Task for cow movement
+│   │   │   │               └── bungee/
+│   │   │   │                   ├── CowSayBungee.kt          # Main BungeeCord plugin class
+│   │   │   │                   ├── commands/
+│   │   │   │                   │   └── CowSayCommand.kt     # Command handler for BungeeCord
+│   │   │   │                   └── managers/
+│   │   │   │                       ├── ConfigManager.kt     # Manages configuration loading and saving
+│   │   │   │                       └── DatabaseManager.kt   # Manages database interactions
+│   │   └── resources/
+│   │       ├── bungee.yml       # Configuration file for BungeeCord
+│   │       ├── config.yml       # Default configuration
+└── └──     └── plugin.yml       # Configuration file for Bukkit/Spigot
+```
+
 ## How it Works
 
 ### Command Execution
