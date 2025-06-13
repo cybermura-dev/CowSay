@@ -192,4 +192,6 @@ Each time a player uses the command, the plugin records the event in the MySQL d
 
 ## License
 
-This project is licensed under the MIT License - see the LICENSE file for details.
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+Copyright (c) 2025 Takeshiko 
