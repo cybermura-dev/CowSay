@@ -53,7 +53,7 @@ The CowSay plugin is a fun and interactive Minecraft plugin that allows players 
 1. **Clone the Repository:**
    
     ```bash
-    git clone https://github.com/takeshikodev/CowSay.git
+    git clone https://github.com/cybermura-dev/CowSay.git
     cd CowSay
     ```
 
@@ -194,4 +194,4 @@ Each time a player uses the command, the plugin records the event in the MySQL d
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-Copyright (c) 2025 Takeshiko 
+Copyright (c) 2025 cybermura
